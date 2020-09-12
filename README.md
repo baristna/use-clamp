@@ -11,8 +11,6 @@ A <a href="https://reactjs.org/docs/hooks-intro.html">React Hook</a> to keep the
 
 <hr/>
 
-clamp description
-
 ### Installation
 ```
 $ yarn add use-clamp
