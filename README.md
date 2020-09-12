@@ -6,8 +6,8 @@ A <a href="https://reactjs.org/docs/hooks-intro.html">React Hook</a> to keep the
 
 <hr />
 
-<a href="#installation">Installation</a>
-<a href="#multiple-values">Multiple Values</a>
+- <a href="#installation">Installation</a> <br/>
+- <a href="#multiple-values">Multiple Values</a>
 
 <hr/>
 
@@ -33,3 +33,8 @@ With passing array of numbers as first arguments will keep sum of the values bet
 
  - Each value will stay above the min value.
  - If total of the values exceeds maximum value, each values will have the weighted values.
+
+```js
+const clampedValue = useClamp([20, 80, 50, 50], 0, 100);
+// clampedValue = [10, 40, 25, 25]
+```
